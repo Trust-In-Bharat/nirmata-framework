@@ -4,7 +4,7 @@
 **Custodian:** Elytra Security  
 **Maintainer:** Venkat Mangudi  
 **License:** Creative Commons Attribution–ShareAlike 4.0 International (CC BY-SA 4.0)  
-**Website:** [https://Trust-In-Bharat.github.io](https://Trust-In-Bharat.github.io)  
+**Website:** [https://trust-in-bharat.github.io/nirmata-site/](https://trust-in-bharat.github.io/nirmata-site/)
 **Email:** trustin@elytrasecurity.com  
 
 ---
