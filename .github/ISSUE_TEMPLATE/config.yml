@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Submit via Microsoft Form (no sign-in)
+    url: https://forms.office.com/r/<yourShortCode>
+    about: Use this link if you don’t have a GitHub account.
+  - name: Read Positioning & Legal Notice
+    url: https://<your-site>/legal/positioning.html
+    about: Framework scope, licensing, and disclaimers.
