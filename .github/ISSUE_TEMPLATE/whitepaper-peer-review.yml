@@ -1,0 +1,82 @@
+name: Whitepaper Peer Review
+description: Submit a structured peer review for the TRUST-IN Bharat / NIRMATA documents
+title: "[Peer Review] <Section or Annex Name>"
+labels: ["peer-review", "pending"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing to the TRUST-IN Bharat peer-review process.
+        Please provide clear, actionable, evidence-based feedback.
+
+  - type: input
+    id: section
+    attributes:
+      label: Section or Annex reviewed
+      placeholder: "Annex G — Scoring and Interpretation"
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Document version / date
+      placeholder: "v0.9-draft (YYYY-MM-DD)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: role
+    attributes:
+      label: Reviewer role
+      options:
+        - Technical Expert
+        - Policy / Legal Reviewer
+        - Editorial / Language Reviewer
+        - Framework / Structure Reviewer
+    validations:
+      required: true
+
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact level
+      options:
+        - Critical (must fix before release)
+        - Major (fix strongly recommended)
+        - Minor (editorial)
+    validations:
+      required: true
+
+  - type: textarea
+    id: observations
+    attributes:
+      label: Key observations
+      description: "Summarize what works well and what needs improvement."
+    validations:
+      required: true
+
+  - type: textarea
+    id: recommendations
+    attributes:
+      label: Recommendations (actionable)
+      description: "Propose concrete edits, clarifications, or references."
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Citations / references (optional)
+      description: "Standards, reports, or sources that support your feedback."
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Review checklist
+      options:
+        - label: Reviewed for factual accuracy
+        - label: Alignment with ISO/IEC standards verified
+        - label: Clarity and tone reviewed
+        - label: Consistency with NIRMATA framework reviewed
